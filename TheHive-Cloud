@@ -1,0 +1,11 @@
+Hosting Hive on cloud with the specifications below marks as a pitstop of the lab.
+RAM: 8GB+ (Recommend 16 GB)
+HDD: 50+ GB
+OS: Ubuntu 22.04 LTS
+
+The Hive consists of three major components:
+Java - Provides the core framework for its scalable and reliable operations.
+Cassandra - Primary database to store large volumes of incident data with high availability across distributed systems.
+ElasticSearch - Fast indexing and search, enabling quick retrieval and correlation of cases and alerts. This also occupies majority of the space that is provided for the Hive
+
+Upon installing the above mentioned, Hive dasboard hosted on the public IP address is all set for case management as it receives signal from the shuffle.
