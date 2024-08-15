@@ -1,0 +1,16 @@
+The embryosis of the project was to host Wazuh server on the cloud with the following specifications: 
+RAM: 8GB+
+HDD: 50GB+
+OS: Ubuntu 22.04 LTS
+
+Further, configuration and integration of the server with the dashboard (configured using public IP of Wazuh server) marks the completion of Wazuh installation. Wazuh is the backbone of this home lab as a Security 
+Information and Event Management (SIEM) solution, responsible for collecting, monitoring, and analyzing logs from various sources. 
+It plays a crucial role in real-time threat detection, identifying suspicious activities, and generating alerts based on defined security rules. Wazuh integrates seamlessly with other tools in your setup, such as 
+The Hive for case management and Shuffle for automation, ensuring that detected threats are handled efficiently. This end-to-end integration provides comprehensive visibility and control over security events across 
+your environment.
+
+Sysmon (System Monitor) another important logging tool utilized in this project enhances Wazuh's capabilities by providing detailed logs of system events on your Windows-10 client, such as process creation, 
+network connections, and file modifications. 
+Wazuh ingests these Sysmon logs, applying correlation and detection rules to identify potential threats and anomalies. When an alert is triggered, Wazuh can forward it to The Hive for incident response or initiate 
+automated workflows through Shuffle. This combination of Sysmon’s granular event data and Wazuh’s advanced analytics creates a powerful security monitoring and response system that is both efficient and effective 
+in detecting and responding to potential attacks.
